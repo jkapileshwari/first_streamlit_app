@@ -23,3 +23,5 @@ streamlit.multiselect("pick some fruits:",list(my_fruit_list.index))
 
 #lets display
 streamlit.dataframe(my_fruit_list)
+
+streamlit.multiselect("pick some fruits:",list(my_fruit_list.index),['avacado','strawberries'])
